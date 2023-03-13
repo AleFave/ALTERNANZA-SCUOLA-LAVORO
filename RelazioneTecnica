@@ -1,0 +1,22 @@
+https://docs.google.com/document/d/1g1_bxeytxZG_xI8x8au9-2crq0rPrqgBmtFGiZBc3DI/edit?usp=sharing
+
+Indice
+1. Analisi dei Requisiti
+1.1 Requisiti funzionali
+1.2 Requisiti non funzionali
+2 Progettazione
+2.1 Tecnologia utilizzata
+2.2 Struttura Database
+2.3 Struttura file system su Server
+3 Sviluppo e test
+3.1 Struttura template dinamico
+3.2 Oggetto connessione al DB
+3.3 Metodi di selezione ed esecuzione query
+
+1.1 Requisiti funzionali:
+Uno studente può entrare sul sito se in possesso dei dati forniti dalla scuola contenenti utente e password (precaricati sul db)
+Uno studente visualizza le attività di alternanza a cui partecipa/ha partecipato/parteciperà
+
+1.2 Requisiti non funzionali:
+Sessione: creiamo una sessione per motivi di sicurezza, al momento del login in modo che uno studente che non effettui il login possa visionare la pagina contenente le informazioni sulle aziende
+Sicurezza: passiamo i dati in POST a logincheck in modo che non possano essere visualizzati nell’url. Le psw saranno cryptate sul db. 
